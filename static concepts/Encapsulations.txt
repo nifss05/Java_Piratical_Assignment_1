@@ -1,0 +1,29 @@
+1. What is Encapsulation in Java? Why is it Important?
+Encapsulation: Hides data within a class and controls access.
+Control: Manages data access.
+Flexibility: Easy to modify.
+Maintenance: Simplifies code changes.
+Security: Protects data.
+
+2. What are the Important Features of Encapsulation?
+Private Variables: Data hidden.
+Public Methods: Controlled access.
+Data Protection: Keeps data safe.
+
+3. What are Getter and Setter Methods in Java?
+Getter: Accesses private data.
+Setter: Modifies private data.
+Example: getName(), setName(name)
+
+4. What is the Use of this Keyword?
+this: Refers to the current object.
+Distinguish Variables: this.name = name;
+Call Constructors: this()
+
+5. What is the Difference Between Encapsulation and Abstraction?
+Encapsulation: Hides data.
+Abstraction: Hides implementation.
+
+6. How to Achieve Encapsulation in Java? Give an Example.
+Achieve Encapsulation: Use private fields and public getters/setters.
+Example: private int age; with getAge(), setAge(age)

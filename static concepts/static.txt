@@ -1,0 +1,25 @@
+1. What is a Static Variable in Java?
+A static variable is shared among all instances of a class and belongs to the class itself, not to any specific object.
+
+2. What is Static Loading and How Does the Java Program Actually Do It?
+Static loading refers to loading classes into memory before use. Java does this at runtime when the class is first accessed, initializing static variables and blocks.
+
+3. Can We Mark a Local Variable as Static?
+No, local variables cannot be marked as static.
+
+4. Why is the main Method Static in Java?
+The main method is static so the JVM can call it without creating an instance of the class.
+
+5. Why is a Static Method Able to Call Static Variables and Static Methods?
+A static method can access only static variables and methods because they belong to the class itself, not to any particular instance.
+
+6. What is the Use of Static Blocks in Java?
+Static blocks are used for initializing static variables and performing setup actions when the class is loaded.
+
+7. Difference Between Static and Instance Variables
+Static Variables: Shared among all instances; exist as long as the class is loaded.
+Instance Variables: Unique to each object; exist as long as the object exists.
+
+8. Difference Between Static and Non-Static Methods
+Static Methods: Belong to the class; can only access static variables/methods.
+Non-Static Methods: Belong to instances; can access both static and instance variables/methods.

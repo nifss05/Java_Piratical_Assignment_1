@@ -1,0 +1,31 @@
+1. What is a Constructor in Java?
+ A constructor initializes objects. It has the same name as the class and no return type.
+ Example: public MyClass() {}
+
+2. What is Constructor Chaining?
+ Constructor Chaining: Calling one constructor from another in the same class or from a parent class.
+ Example: this(), super()
+
+3. Can You Call a Java Class Constructor from Another Class Constructor?
+ Yes, you can call one class's constructor from another class’s constructor using super().
+ Example: public SubClass() { super(); }
+
+4. What is the Purpose of this() in a Constructor?
+ this(): Calls another constructor in the same class.
+
+Example: public MyClass() { this(5); }
+
+5. What is a No-Argument Constructor?
+  A No-Argument Constructor has no parameters and initializes default values.
+  Example: public MyClass() {}
+
+6. How is a No-Argument Constructor Different from a Default Constructor?
+ No-Argument Constructor: Explicitly defined with no parameters.
+ Default Constructor: Implicitly provided by Java if no constructors are defined.
+
+7. When to Use Constructor Overloading?
+ Use Constructor Overloading to create multiple ways to initialize an object with different parameters.
+ Example: public MyClass(int a) {}, public MyClass(int a, int b) {}
+
+8. What is a Default Constructor? Explain with an Example.
+  A Default Constructor is provided by Java if no other constructors are defined. It initializes instance variables to default values.
